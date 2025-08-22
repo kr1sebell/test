@@ -1,12 +1,12 @@
-"""Main module for test project."""
+"""Главный модуль тестового проекта."""
 
-def hello(name: str = "World") -> str:
-    """Return a friendly greeting.
+def hello(name: str = "мир") -> str:
+    """Вернуть дружеское приветствие.
 
-    Args:
-        name: Name to greet.
+    Аргументы:
+        name: Имя для приветствия.
 
-    Returns:
-        Greeting string.
+    Возвращает:
+        Строку с приветствием.
     """
-    return f"Hello, {name}!"
+    return f"Привет, {name}!"

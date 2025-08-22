@@ -1,4 +1,4 @@
-"""Test project package."""
+"""Пакет тестового проекта."""
 
 __all__ = ["hello"]
 

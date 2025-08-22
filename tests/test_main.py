@@ -1,9 +1,11 @@
+"""Тесты для функции `hello`."""
+
 from testproject import hello
 
 
 def test_hello_default():
-    assert hello() == "Hello, World!"
+    assert hello() == "Привет, мир!"
 
 
 def test_hello_custom():
-    assert hello("Alice") == "Hello, Alice!"
+    assert hello("Алиса") == "Привет, Алиса!"

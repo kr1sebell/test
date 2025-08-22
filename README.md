@@ -1,15 +1,15 @@
-# Test project
+# Тестовый проект
 
-This repository contains a minimal Python project skeleton.
+Этот репозиторий содержит минимальный каркас Python‑проекта.
 
-## Structure
+## Структура
 
-- `src/testproject`: package source code
-- `tests`: pytest test suite
+- `src/testproject`: исходный код пакета
+- `tests`: набор тестов для pytest
 
-## Development
+## Разработка
 
-Run tests with:
+Запуск тестов:
 
 ```bash
 pytest
